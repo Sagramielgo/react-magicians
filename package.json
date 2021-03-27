@@ -1,5 +1,5 @@
 {
-  "name": "team-1-api",
+  "name": "react-magicians",
   "version": "1.0.0",
   "description": "project",
   "scripts": {
@@ -8,6 +8,6 @@
     "dev": "cd web && npm start & cd server && npm run dev",
     "install": "cd web && npm install && cd ../server && npm install"
   },
-  "author": "team1",
+  "author": "react-magicians",
   "license": "ISC"
 }

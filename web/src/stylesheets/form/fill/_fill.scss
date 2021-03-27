@@ -2,7 +2,7 @@
 @import '../../core/reset';
 .fill {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   &__form {
     margin: 25px 19px 0;
     display: grid;
@@ -45,6 +45,7 @@
       font-size: 14px;
       color: $color-background-cards;
       margin-top: 10px;
+      padding-top: 3px;
     }
     &--box {
       width: 30px;

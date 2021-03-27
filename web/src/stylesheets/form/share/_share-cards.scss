@@ -1,5 +1,5 @@
-@import "../../core/_variables.scss";
-@import "../../core/_reset.scss";
+@import '../../core/_variables.scss';
+@import '../../core/_reset.scss';
 .section__share__container {
   border-bottom: 1px orange;
   text-align: center;
@@ -50,7 +50,7 @@
     border: transparent;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
     background-color: #00a0f5;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
@@ -118,4 +118,10 @@
 .twitterButton {
   background: none;
   border: none;
+}
+
+.created__link {
+  text-decoration: underline;
+  font-size: large;
+  text-transform: uppercase;
 }

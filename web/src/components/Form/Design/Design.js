@@ -1,7 +1,7 @@
-import Collapsable from "../Collapsable";
-import Palettes from "./Palettes";
-import "../../../stylesheets/form/design/_design.scss";
-import PropTypes from "prop-types";
+import Collapsable from '../Collapsable';
+import Palettes from './Palettes';
+import '../../../stylesheets/form/design/_design.scss';
+import PropTypes from 'prop-types';
 
 function Design(props) {
   return (

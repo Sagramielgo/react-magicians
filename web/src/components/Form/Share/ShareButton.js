@@ -1,6 +1,6 @@
-import "../../../stylesheets/form/share/_share-cards.scss";
-import React from "react";
-import PropTypes from "prop-types";
+import '../../../stylesheets/form/share/_share-cards.scss';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function ShareButton(props) {
   const handleButton = () => {
@@ -22,7 +22,9 @@ function ShareButton(props) {
               target="_blank"
               rel="noreferrer"
             >
-              {shareLink}
+              <p className="created__link">
+                Haz click aquí para ver tu tarjeta
+              </p>
             </a>
           </p>
           <button className="twitterButton">
