@@ -1,8 +1,8 @@
-import Collapsable from "../Collapsable";
-import ImageProfile from "./ImageProfile";
-import Input from "./Inputs";
-import "../../../stylesheets/form/fill/_fill.scss";
-import PropTypes from "prop-types";
+import Collapsable from '../Collapsable';
+import ImageProfile from './ImageProfile';
+import Input from './Inputs';
+import '../../../stylesheets/form/fill/_fill.scss';
+import PropTypes from 'prop-types';
 
 function Fill(props) {
   return (
@@ -51,7 +51,7 @@ function Fill(props) {
           <Input
             name="linkedin"
             label="Linkedin*"
-            type="url"
+            type="text"
             placeholder="Ej: linkedin.com/in/sally.hill"
             className=""
             value={props.linkedin}
@@ -61,7 +61,7 @@ function Fill(props) {
           <Input
             name="github"
             label="Github*"
-            type="url"
+            type="text"
             placeholder="Ej: @sally-hill"
             className=""
             value={props.github}
