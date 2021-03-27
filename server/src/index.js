@@ -1,7 +1,7 @@
 const cors = require('cors');
 const express = require('express');
 const Database = require('better-sqlite3');
-
+const path = require('path');
 // SERVER
 
 // config server
@@ -115,11 +115,11 @@ app.post('/card', (req, res) => {
     });
   }
 });
-// app.get("*", (req, res) => {
-//   const notFoundFileRelativePath = "../public/404-not-found.html";
-//   const notFoundFileAbsolutePath = path.join(
-//     __dirname,
-//     notFoundFileRelativePath
-//   );
-//   res.status(404).sendFile(notFoundFileAbsolutePath);
-// });
+app.get('*', (req, res) => {
+  const notFoundFileRelativePath = '../public/404-not-found.html';
+  const notFoundFileAbsolutePath = path.join(
+    __dirname,
+    notFoundFileRelativePath
+  );
+  res.status(404).sendFile(notFoundFileAbsolutePath);
+});
