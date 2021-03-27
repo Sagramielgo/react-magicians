@@ -107,7 +107,7 @@ app.post('/card', (req, res) => {
     const serverUrl =
       req.hostname === 'localhost'
         ? 'http://localhost:3000'
-        : 'https://awesome-profile-cards-magician.herokuapp.com';
+        : 'https://sagramielgo-react-magicians.herokuapp.com';
 
     res.json({
       success: true,

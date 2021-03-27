@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <title>React Magicians</title>
+    <link rel="icon" href="/favicon.png" />
+    <link href="//fonts.googleapis.com/css2?family=Merriweather:wght@900&amp;display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles-for-template-engine.css">
+</head>
+
+<body class="notFound">
+    <article class="photocard palette-<%=palette %>">
+        <div class="container">
+            <div class="tittlescontainer">
+                <h2 class=" photocard__title  palette-<%=palette %>">
+                    SORRY
+                </h2>
+                <p class=" photocard__title2  palette-<%=palette %>">
+                    Page not found
+                </p>
+            </div>
+        </div>
+        <div class="photocard__img" style="background-image: url('./static/media/CatNoWay.gif');">
+
+        </div>
+        <ul class="photocard__list  palette-<%=palette %> "></ul>
+
+        <div class="homeButton">
+            <a href="https://react-magicians-cards.herokuapp.com/" class="homeLink">
+                Back Home
+            </a>
+        </div>
+
+
+    </article>
+</body>
+
+</html>

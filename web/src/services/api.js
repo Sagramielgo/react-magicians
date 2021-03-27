@@ -1,14 +1,14 @@
-const isDevEnviroment = process.env.NODE_ENV === "development"; //Booleano
+const isDevEnviroment = process.env.NODE_ENV === 'development'; //Booleano
 const apiUrl = isDevEnviroment
-  ? "http://localhost:3000"
-  : "https://awesome-profile-cards-magician.herokuapp.com";
+  ? 'http://localhost:3000'
+  : 'https://sagramielgo-react-magicians.herokuapp.com';
 
 const sendToApi = (data) => {
   return fetch(`${apiUrl}/card`, {
-    method: "POST",
+    method: 'POST',
     body: JSON.stringify(data),
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
   })
     .then((response) => response.json())
@@ -18,7 +18,7 @@ const sendToApi = (data) => {
     .catch(() => {
       return {
         success: false,
-        error: "Se ha producido un error. Inténtelo más tarde",
+        error: 'Se ha producido un error. Inténtelo más tarde',
       };
     });
 };
