@@ -29,10 +29,11 @@ app.get('/card/:id', (req, res) => {
   //DB SQL SELECT
   const query = db.prepare(`SELECT * FROM cards WHERE id = ?`);
   const data = query.get(req.params.id);
-  data.palette = parseInt(data.palette);
+
   //console.log(data);
 
   if (data) {
+    data.palette = parseInt(data.palette);
     res.render('pages/card', data);
   } else {
     res.render('pages/card-not-found');
