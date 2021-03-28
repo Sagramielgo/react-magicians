@@ -248,11 +248,16 @@
   transition: all ease 0.5s;
 }
 .homeButton:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .homeLink {
   color: white;
   text-decoration: none;
   padding: 10px;
+}
+
+.cardNotFound {
+  padding-bottom: 30px;
+  color: white;
 }
