@@ -1,5 +1,5 @@
 import '../stylesheets/_header.scss';
-import headerLogo from '../images/bg-1.png';
+import headerLogo from '../images/brown-tree-logo-text.svg';
 
 function Header() {
   return (

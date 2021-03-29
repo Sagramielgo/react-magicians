@@ -1,6 +1,6 @@
 import '../stylesheets/_footer.scss';
 
-import footerLogo from '../images/bg-1.png';
+import footerLogo from '../images/brown-tree-logo.svg';
 
 function Footer() {
   return (
