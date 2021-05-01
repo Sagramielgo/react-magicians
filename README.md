@@ -1,4 +1,6 @@
-`React Magicians` es un equipo de cuatro mujeres estupendas en proceso de formación de desarrolladoras Front-End: [Ana Fernández](https://github.com/Anafruiz), [Camilla Bachna](https://github.com/camilla-bachna), [Nadia Murias](https://github.com/Nadia3584) y [Sagra Mielgo](https://github.com/Sagramielgo).
+## React Magicians
+
+Somos un equipo de cuatro mujeres estupendas en proceso de formación de desarrolladoras Front-End: [Ana Fernández](https://github.com/Anafruiz), [Camilla Bachna](https://github.com/camilla-bachna), [Nadia Murias](https://github.com/Nadia3584) y [Sagra Mielgo](https://github.com/Sagramielgo).
 
 Este proyecto consiste en realizar una SPA funcional poniendo en práctica los conocimientos de React adquiridos en Adalab durante los módulos 3 y 4.
 Partimos de un código javascript heredado que hemos refactorizado, es decir, pasado a React.
